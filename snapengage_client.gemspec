@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["ciaran@wishpond.com"]
 
   spec.summary       = %q{Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{Write a longer description or delete this line.}
-  spec.homepage      = "Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/cjlofts/snapengage_client"
+  spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
@@ -22,6 +22,7 @@ Gem::Specification.new do |spec|
     spec.metadata['allowed_push_host'] = "Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
   end
 
+  spec.add_dependency 'httparty'
   spec.add_development_dependency "bundler", "~> 1.9"
   spec.add_development_dependency "rake", "~> 10.0"
 end
