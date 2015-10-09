@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "snapengage_client"
   spec.version       = SnapengageClient::VERSION
   spec.authors       = ["Ciaran Lofts"]
-  spec.email         = ["cjlofts@sky.com"]
+  spec.email         = ["ciaran@wishpond.com"]
 
   spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
   spec.description   = %q{TODO: Write a longer description or delete this line.}
